@@ -2,53 +2,7 @@
 
 FHE equality comparison using EntropyOracle
 
-## 🚀 Quick Start
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/zacnider/fhevm-example-basic-equalitycomparison.git
-   cd fhevm-example-basic-equalitycomparison
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-
-3. **Setup environment:**
-   ```bash
-   npm run setup
-   ```
-   Then edit `.env` file with your credentials:
-   - `SEPOLIA_RPC_URL` - Your Sepolia RPC endpoint
-   - `PRIVATE_KEY` - Your wallet private key (for deployment)
-   - `ETHERSCAN_API_KEY` - Your Etherscan API key (for verification)
-
-4. **Compile contracts:**
-   ```bash
-   npm run compile
-   ```
-
-5. **Run tests:**
-   ```bash
-   npm test
-   ```
-
-6. **Deploy to Sepolia:**
-   ```bash
-   npm run deploy:sepolia
-   ```
-
-7. **Verify contract (after deployment):**
-   ```bash
-   npm run verify <CONTRACT_ADDRESS>
-   ```
-
-**Alternative:** Use the [Examples page](https://entrofhe.vercel.app/examples) for browser-based deployment and verification.
-
----
-
-## 📋 Overview
+## Overview
 
 @title EntropyEqualityComparison
 @notice FHE equality comparison using EntropyOracle
@@ -86,7 +40,7 @@ This example shows:
 
 
 
-## 🔍 Contract Code
+## Contract Code
 
 ```solidity
 // SPDX-License-Identifier: BSD-3-Clause-Clear
@@ -237,25 +191,21 @@ contract EntropyEqualityComparison is ZamaEthereumConfig {
 
 ```
 
-## 🧪 Tests
+## Tests
 
-See [test file](./test/EntropyEqualityComparison.test.ts) for comprehensive test coverage.
+See [test file](../examples/basic-equalitycomparison/test/EntropyEqualityComparison.test.ts) for comprehensive test coverage.
 
 ```bash
 npm test
 ```
 
 
-## 📚 Category
+## Category
 
 **basic**
 
 
 
-## 🔗 Related Examples
+## Related Examples
 
-- [All basic examples](https://github.com/zacnider/entrofhe/tree/main/examples)
-
-## 📝 License
-
-BSD-3-Clause-Clear
+- [All basic examples](../examples/basic/)
