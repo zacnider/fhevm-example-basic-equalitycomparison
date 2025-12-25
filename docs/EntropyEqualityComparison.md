@@ -1,20 +1,20 @@
 # EntropyEqualityComparison
 
-FHE equality comparison using EntropyOracle
+Learn how to fhe equality comparison using encrypted randomness
 
-## Overview
+## 📚 Overview
 
 @title EntropyEqualityComparison
-@notice FHE equality comparison using EntropyOracle
-@dev Example demonstrating EntropyOracle integration: using entropy in equality comparisons
-This example shows:
-- How to integrate with EntropyOracle
-- Using entropy to enhance comparison operations
+@notice FHE equality comparison using encrypted randomness
+@dev This example teaches you how to integrate encrypted randomness into your FHEVM contracts: using entropy in equality comparisons
+In this example, you will learn:
+- How to integrate encrypted randomness
+- How to use encrypted randomness to enhance comparison operations
 - Entropy-based equality checks
 - Combining entropy with encrypted values for comparisons
 
-@notice Constructor - sets EntropyOracle address
-@param _entropyOracle Address of EntropyOracle contract
+@notice Constructor - sets encrypted randomness address
+@param _encrypted randomness Address of encrypted randomness contract
 
 @notice Initialize two encrypted values
 @param encryptedValue1 First encrypted value
@@ -24,7 +24,7 @@ This example shows:
 
 @notice Request entropy for comparison operations
 @param tag Unique tag for this request
-@return requestId Request ID from EntropyOracle
+@return requestId Request ID from encrypted randomness
 @dev Requires 0.00001 ETH fee
 
 @notice Compare two encrypted values for equality
@@ -36,7 +36,7 @@ This example shows:
 
 @notice Check if values are initialized
 
-@notice Get EntropyOracle address
+@notice Get encrypted randomness address
 
 
 
