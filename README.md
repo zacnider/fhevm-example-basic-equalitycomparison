@@ -1,6 +1,10 @@
 # EntropyEqualityComparison
 
-FHE equality comparison using EntropyOracle
+Learn how to fhe equality comparison using encrypted randomness
+
+## 🎓 What You'll Learn
+
+This example teaches you how to use FHEVM to build privacy-preserving smart contracts. You'll learn step-by-step how to implement encrypted operations, manage permissions, and work with encrypted data.
 
 ## 🚀 Quick Start
 
@@ -48,19 +52,19 @@ FHE equality comparison using EntropyOracle
 
 ---
 
-## 📋 Overview
+## 📚 Overview
 
 @title EntropyEqualityComparison
-@notice FHE equality comparison using EntropyOracle
-@dev Example demonstrating EntropyOracle integration: using entropy in equality comparisons
-This example shows:
-- How to integrate with EntropyOracle
-- Using entropy to enhance comparison operations
+@notice FHE equality comparison using encrypted randomness
+@dev This example teaches you how to integrate encrypted randomness into your FHEVM contracts: using entropy in equality comparisons
+In this example, you will learn:
+- How to integrate encrypted randomness
+- How to use encrypted randomness to enhance comparison operations
 - Entropy-based equality checks
 - Combining entropy with encrypted values for comparisons
 
-@notice Constructor - sets EntropyOracle address
-@param _entropyOracle Address of EntropyOracle contract
+@notice Constructor - sets encrypted randomness address
+@param _encrypted randomness Address of encrypted randomness contract
 
 @notice Initialize two encrypted values
 @param encryptedValue1 First encrypted value
@@ -70,7 +74,7 @@ This example shows:
 
 @notice Request entropy for comparison operations
 @param tag Unique tag for this request
-@return requestId Request ID from EntropyOracle
+@return requestId Request ID from encrypted randomness
 @dev Requires 0.00001 ETH fee
 
 @notice Compare two encrypted values for equality
@@ -82,15 +86,15 @@ This example shows:
 
 @notice Check if values are initialized
 
-@notice Get EntropyOracle address
+@notice Get encrypted randomness address
 
 
 
-## 🔐 Zama FHEVM Usage
+## 🔐 Learn Zama FHEVM Through This Example
 
-This example demonstrates the following **Zama FHEVM** features:
+This example teaches you how to use the following **Zama FHEVM** features:
 
-### Zama FHEVM Features Used
+### What You'll Learn About
 
 - **ZamaEthereumConfig**: Inherits from Zama's network configuration
   ```solidity
@@ -141,19 +145,20 @@ euint64 result = FHE.add(encryptedValue, FHE.asEuint64(1));
 FHE.allowThis(result);
 ```
 
-### Zama FHEVM Concepts Demonstrated
+### FHEVM Concepts You'll Learn
 
-1. **Encrypted Arithmetic**: Using Zama FHEVM to encrypted arithmetic
-2. **Encrypted Comparison**: Using Zama FHEVM to encrypted comparison
-3. **External Encryption**: Using Zama FHEVM to external encryption
-4. **Permission Management**: Using Zama FHEVM to permission management
-5. **Entropy Integration**: Using Zama FHEVM to entropy integration
+1. **Encrypted Arithmetic**: Learn how to use Zama FHEVM for encrypted arithmetic
+2. **Encrypted Comparison**: Learn how to use Zama FHEVM for encrypted comparison
+3. **External Encryption**: Learn how to use Zama FHEVM for external encryption
+4. **Permission Management**: Learn how to use Zama FHEVM for permission management
+5. **Entropy Integration**: Learn how to use Zama FHEVM for entropy integration
 
 ### Learn More About Zama FHEVM
 
 - 📚 [Zama FHEVM Documentation](https://docs.zama.org/protocol)
 - 🎓 [Zama Developer Hub](https://www.zama.org/developer-hub)
 - 💻 [Zama FHEVM GitHub](https://github.com/zama-ai/fhevm)
+
 
 
 ## 🔍 Contract Code
